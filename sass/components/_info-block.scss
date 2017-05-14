@@ -1,0 +1,43 @@
+.info-block {
+  width: 300px;
+  height: 250px;
+  background-color: $turqoise;
+
+  &--red {
+    background-color: $dark-purple;
+  }
+
+  &--yellow {
+    background-color: $yellow;
+  }
+
+
+  &__title {
+    text-decoration: none;
+    cursor: pointer;
+    height: 100%;
+    color: $yellow;
+    font-family: $railway;
+    font-size: 35px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--turqoise {
+      color: $turqoise;
+    }
+    &--red {
+      color: $brown-red;
+    }
+
+    &--quote {
+      font-size: 15px;
+    }
+  }
+
+  &__content {
+    display: none;
+  }
+}
