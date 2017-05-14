@@ -1,0 +1,45 @@
+{
+  "name": "vitenfilmfestival.no",
+  "version": "1.0.0",
+  "description": "Website for the science and art film festival \"Viten Filmfestival\" of Bergen. ",
+  "main": "index.js",
+  "devDependencies": {
+     "angular-translate": "^2.15.1",
+     "browser-sync": "^2.18.5",
+     "gulp": "github:gulpjs/gulp#4.0",
+     "gulp-autoprefixer": "^3.1.1",
+     "gulp-clean-css": "^3.0.3",
+     "gulp-concat": "^2.6.1",
+     "gulp-connect": "^5.0.0",
+     "gulp-filter": "^4.0.0",
+     "gulp-include": "^2.3.1",
+     "gulp-load-plugins": "^1.4.0",
+     "gulp-minify": "0.0.15",
+     "gulp-minify-html": "^1.0.6",
+     "gulp-ng-html2js": "^0.2.2",
+     "gulp-plumber": "^1.1.0",
+     "gulp-sass": "^3.0.0",
+     "gulp-sass-lint": "^1.3.2",
+     "gulp-sourcemaps": "^2.4.1",
+     "gulp-uglify": "^2.1.2",
+     "node-normalize-scss": "^1.4.0"
+   },
+   "dependencies": {
+     "flexboxgrid": "^6.3.1",
+     "gulp-load-plugins": "^1.4.0",
+     "node-normalize-scss": "^1.4.0"
+   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannahAmanda/Viten-Filmfestival.git"
+  },
+  "author": "Hannah Amanda Hansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannahAmanda/Viten-Filmfestival/issues"
+  },
+  "homepage": "https://github.com/HannahAmanda/Viten-Filmfestival#readme"
+}
