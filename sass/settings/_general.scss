@@ -21,7 +21,20 @@ body {
 .main-content {
   box-sizing: border-box;
   width: 100%;
+  max-width: 1200px;
   padding: 50px 40px 80px 40px;
+  position: absolute;
+}
+
+.background {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -3;
+  height: 0;
+
 }
 
 .row {

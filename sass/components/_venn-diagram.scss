@@ -1,0 +1,32 @@
+.venn-diagram {
+  position: relative;
+  z-index: -1;
+  display: flex;
+
+
+
+  .circle {
+    border-radius: 50%;
+	  width: 50vw;
+	  height: 50vw;
+    opacity: 0.3;
+    position: relative;
+    z-index: -1;
+    right: -10vw;
+
+    &:last-of-type {
+      z-index: -3;
+      left: -10vw;
+      right: auto;
+    }
+  }
+
+  .blue {
+    background-color: $pastel-blue;
+  }
+
+  .yellow {
+
+    background-color: $pastel-yellow;
+  }
+}

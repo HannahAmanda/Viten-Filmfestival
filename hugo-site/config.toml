@@ -1,0 +1,4 @@
+baseURL = "http://hannahamanda.no/"
+languageCode = "en-us"
+title = "Viten Filmfestival 2017"
+theme = "viten-filmfestival"
