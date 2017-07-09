@@ -3,30 +3,42 @@
   z-index: -1;
   display: flex;
 
-
-
   .circle {
     border-radius: 50%;
 	  width: 50vw;
 	  height: 50vw;
-    opacity: 0.3;
+    opacity: 0.4;
     position: relative;
     z-index: -1;
     right: -10vw;
 
-    &:last-of-type {
+    &:nth-child(2){
       z-index: -3;
       left: -10vw;
-      right: auto;
+      right: -20vw;
     }
   }
+}
 
-  .blue {
-    background-color: $pastel-blue;
-  }
+.third-circle {
+  border-radius: 50%;
+  width: 50vw;
+  height: 50vw;
+  opacity: 0.4;
+  position: relative;
+  z-index: 0;
+  top: -25vw;
+  left: 25vw;
+}
 
-  .yellow {
+.blue {
+  background-color: $blue;
+}
 
-    background-color: $pastel-yellow;
-  }
+.yellow {
+  background-color: $yellow;
+}
+
+.pink {
+  background-color: $pink;
 }
